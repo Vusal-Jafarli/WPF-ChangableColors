@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_TASK1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_TASK1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Name="Window">
+    <Grid  Name="panel">
+
+        <Button Name="btn_1" Content="1"  Height="100" Width="100" Margin="0 20 500 200" Click="btn_Click" MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="AliceBlue"/>
+        <Button Name="btn_2" Content="2"  Height="100" Width="100" Margin="0 20 0 200" Click ="btn_Click"  MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="Green"/>
+        <Button Name="btn_3" Content="3"  Height="100" Width="100" Margin="500 20 0 200" Click ="btn_Click" MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="Yellow"/>
+        <Button Name="btn_4" Content="4"  Height="100" Width="100" Margin="0 200 500 20" Click ="btn_Click" MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="LightCyan"/>
+        <Button Name="btn_5" Content="5"  Height="100" Width="100" Margin="0 200 0 20" Click ="btn_Click" MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="LightPink"/>
+        <Button Name="btn_6" Content="6"  Height="100" Width="100" Margin="500 200 0 20" Click ="btn_Click" MouseRightButtonDown="btn_1_MouseRightButtonDown" Background="Salmon"/>
+
+
+    </Grid>
+</Window>
+ 
